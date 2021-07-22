@@ -1,6 +1,6 @@
 {
-  "name": "mammoth",
-  "version": "1.4.17",
+  "name": "@agilukm/mammoth",
+  "version": "1.4.18",
   "author": "Michael Williamson <mike@zwobble.org>",
   "description": "Convert Word documents from docx to simple HTML and Markdown",
   "keywords": [
@@ -14,7 +14,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwilliamson/mammoth.js.git"
+    "url": "https://github.com/agilukm/mammoth.js.git"
   },
   "dependencies": {
     "argparse": "~1.0.3",
@@ -51,5 +51,13 @@
     "test": "mocha 'test/**/*.tests.js'",
     "prepublish": "make mammoth.browser.min.js"
   },
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mwilliamson/mammoth.js/issues"
+  },
+  "homepage": "https://github.com/mwilliamson/mammoth.js#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
